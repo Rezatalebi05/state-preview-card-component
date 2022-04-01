@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color: hsl(233, 47%, 7%);
+      color: hsl(0, 0%, 100%);
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 400;
+      
+  
+    }
+    .object{
+     background-color:hsl(244, 38%, 16%) ; 
+     width: 90%;
+      min-height: 500px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      border-radius: 35px;
+      text-align: start;
+      padding-top: 50px;
+      padding-left: 50px;
+      max-height: 500px;
+      line-break: 50px;
+    }
+    .object span{
+      color: hsl(277, 64%, 61%);
+    }
+    .object .header{
+      font-size: 45px;
+      text-align: start;
+      padding-top: 50px;
+      padding-left: 50px;
+    }
+    .object p{
+      color:hsla(0, 0%, 100%, 0.75) ;
+    }
+     .object  img{
+      filter: opacity(0.4) drop-shadow(0 0 0   hsl(277, 64%, 61%)); 
+  
+    }
+    .object .image{
+    
+      position: absolute;
+      top: 50%;
+      left: 75%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+     border-top-right-radius: 35px;
+     border-bottom-right-radius: 35px;
+      text-align: start;
+   height: 100%;
+   width: 50%;
+      padding-right: 0;
+    }
+     .content {
+      display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+  text-transform: uppercase;
+  font-size: 38px;
+    }
+    .content p{
+      font-size: 25px;
+      display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+    }
+  </style>
+</head>
+<body>
+<div class="object">
+  <img class="image" src="images/image-header-desktop.jpg">
+ <div class="header"> Get <span>insights </span>that help<br> your business grow.</div>
+<p>
+  Discover the benefits of data analytics and make<br> better decisions regarding revenue, customer<br>
+  experience, and overall efficiency.
+<br>
+<div class="content">
+  <div>10k+ <p>companies</p></div>
+  <div> 314 <p>templates</p></div>
+  <div> 12m+ <p>queries</p></div>
+</div>
+</p>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://riza-talebi.web.app">Riza-talebi</a>.
+  </div>
+</body>
+</html>
